@@ -1,0 +1,23 @@
+
+.about{
+    position: fixed
+}
+.title{
+    text-align: center;
+    margin: 30px;
+
+}
+.discription{
+    color: #FD6E0A;
+    font-size: 30px;
+
+}
+
+.about-info-cont{
+    display: flex;
+    position: absolute;
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top: 2782.26px;
+}
