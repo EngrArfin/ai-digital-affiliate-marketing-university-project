@@ -16,7 +16,7 @@ body{
 }
 
 #menu{
-    background: #03060c;
+    background: #bd0808;
     width: 300px;
     height: 100%;
     position: fixed;
@@ -27,7 +27,7 @@ body{
 #menu .logo {
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #ffffff;
     padding: 30px 0 0 30px;
 }
 
@@ -37,7 +37,7 @@ body{
 }
 
 #menu .items {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 
@@ -61,7 +61,7 @@ body{
 
 
 #menu .items li i{
-    color: rgb(134, 141, 151);
+    color: rgb(12, 183, 189);
     width: 30px;
     height: 30px;
     line-height: 30px;
