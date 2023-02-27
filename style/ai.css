@@ -17,9 +17,9 @@ body{
 
 #menu{
     background: #bd0808;
-    width: 300px;
+    width: 400px;
     height: 100%;
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 0;
     
@@ -49,7 +49,7 @@ body{
 
 
 #menu .items li:hover {  
-    background: #fff5f7;
+    background: #be9197;
     cursor: pointer;
     
 }
@@ -61,7 +61,7 @@ body{
 
 
 #menu .items li i{
-    color: rgb(12, 183, 189);
+    color: rgb(101, 116, 158);
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -73,21 +73,22 @@ body{
 
 #menu .items li:hover i,
 #menu .items li:hover a{
-    color: rgb(21, 7, 218);
+    color: #07dada;
 }
 
 #menu .items li a{
-    text-decoration: none;
-    color: rgb(134, 141, 151);
+    
+    color: rgb(16, 16, 223);
     font-weight: 300px;
-    transition: 0.3s ease;
+    transition: 0.5s ease;
     
 }
 
 #interface{
-    width: calc(100% - 300px);
-    margin-left: 300px;
+    width: calc(100% - 100px);
+    margin-left: 400px;
     position: relative;
+    margin-top: 0px;
 
 }
 #interface .navigation{
@@ -139,7 +140,7 @@ body{
     padding: 30px 30px 0 30px;
     font-size: 24px;
     font-weight: 700;
-    margin-top: 70px;
+    margin-top: 0px;
 }
 
 .values{
