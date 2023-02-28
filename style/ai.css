@@ -15,6 +15,13 @@ body{
     
 }
 
+.btne{
+    align-items: right;
+    top: 100;
+    left: 0;
+
+}
+
 #menu{
     background: #bd0808;
     width: 400px;
@@ -61,17 +68,16 @@ body{
 
 
 #menu .items li i{
-    color: rgb(101, 116, 158);
+    color: rgb(24, 73, 207);
     width: 30px;
     height: 30px;
-    line-height: 30px;
-    text-align: center;
-    font-size: 14px;
-    margin: 0 10px 0 25px;
+    line-height: 20px;
+    text-align: left;
+    font-size: 15px;
+    margin: 0 10px 0 5px;
     
 }
 
-#menu .items li:hover i,
 #menu .items li:hover a{
     color: #07dada;
 }
@@ -89,17 +95,18 @@ body{
     margin-left: 400px;
     position: relative;
     margin-top: 0px;
+    margin-right: 0px;
 
 }
 #interface .navigation{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
-    padding: 15px 30px;
+    background: #ffffff;
+    padding: 15px 5px;
     border-bottom: 3px solid #594ef7;
     position: fixed;
-    width: calc(100% - 300px);
+    width: calc(100% - 390px);
 }
 
 #interface .navigation .search{
@@ -107,7 +114,7 @@ body{
     justify-content: flex-start;
     align-items: center;
     padding: 10px 14px;
-    border: 1px solid #f8f7f6;
+    border: 1px solid #fcfcfc;
     border-radius: 4px;
 }
 #interface .navigation .search i{
@@ -134,6 +141,25 @@ body{
     border-radius: 50%;
 
 }
+.values h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+.prev-next{
+    text-align: below;
+}
+/* topUp */
+.overflow-x-auto th{
+    font-weight: 600;
+    font-size: 16px;
+    color: #03f824;
+}
+/* .prof{
+    width: 40px;
+    margin-right: 15px;
+
+} */
 
 .i-name{
     color: #1d0db4;
@@ -172,7 +198,7 @@ body{
     background: #a10909;
 }
 .values .val-box:nth-child(4) i{
-    background: #1993da;
+    background: #2794d3;
 }
 
 .values .val-box i{
@@ -183,7 +209,7 @@ body{
     border-radius: 50%;
     text-align: center;
     color: #fff;
-    background: #5fe0ca;
+    background: #04836e;
     margin-right: 15px;
 }
 
@@ -206,7 +232,7 @@ body{
 .board td{
     font-weight: 600;
     font-size: 16px;
-    color: #1993da;
+    color: #25aaaa;
 }
 .board img{
     width: 45px;
