@@ -149,11 +149,17 @@ body{
 .prev-next{
     text-align: below;
 }
+/* Sales */
+
+.footer{
+    justify-content: last baseline;
+
+}
 /* topUp */
 .overflow-x-auto th{
     font-weight: 600;
     font-size: 16px;
-    color: #03f824;
+    color: #000000;
 }
 /* .prof{
     width: 40px;
