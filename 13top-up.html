@@ -10,7 +10,10 @@
     <title>States</title>
 </head>
 <body>
+  
     <section id="menu">
+      <h3 id="handeler-status" >TouUp Balance</h3>
+        <p id="input-text-display">100$</p>
         <h1>Ads Balance : 100 $</h1>
             <div class="card w-96 bg-base-100 shadow-xl image-full">
                 <figure><img src="/image/card.png" alt="Shoes" /></figure>
@@ -58,8 +61,8 @@
     <!-- part-3-1 -->
     <div class="flex-row">
         <div>
-            <div class="input-group mb-2">
-                <input type="text" class="form-control" placeholder="৳ 100" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class= "input-group mb-2">
+                <input id="input-filed"  type="text" class="form-control" placeholder="৳ 100" aria-label="Recipient's username" aria-describedby="button-addon2">
               </div>
               <p>Minimum: ৳ 100, Maximum- ৳ 10000</p>
         </div>
@@ -73,10 +76,11 @@
                 </select>
               </div>
         </div>
-        <button type="payment" class="btn btn-primary">Payment</button>
+        <button id="btn-update" type="payment" class="btn btn-primary">Payment</button>
 
     </div>
 </section>
+<script src="js/transfer.js"></script>
     
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>

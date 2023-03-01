@@ -14,6 +14,9 @@ body{
     display: flex;
     
 }
+.cont{
+    background-color: #07dada;
+}
 
 .btne{
     align-items: right;
