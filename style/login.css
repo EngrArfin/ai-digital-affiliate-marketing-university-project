@@ -1,18 +1,18 @@
 body {
-    background: #eee !important;
+    background: #bb0808 !important;
   }
   
   .wrapper {
     margin-top: 80px;
     margin-bottom: 80px;
   }
-  
+
   .form-signin {
     max-width: 380px;
     padding: 15px 35px 45px;
     margin: 0 auto;
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #776565;
+    border: 1px solid rgba(185, 102, 102, 0.1);
   }
   .form-signin .form-signin-heading,
   .form-signin .checkbox {

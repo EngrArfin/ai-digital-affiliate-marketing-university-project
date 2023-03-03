@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 *{ margin: 0; padding: 0;}
 body{
@@ -92,7 +92,7 @@ main{
 }
 
 article li{
-   color: #444;
+   color: #312929;
    font-size: 15px;
    margin-left: 33px;
    line-height: 1.5;
@@ -184,3 +184,4 @@ code{
     padding: 2px;
     border-radius: 2px;
 }
+ 

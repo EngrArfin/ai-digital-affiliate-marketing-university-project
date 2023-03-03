@@ -7,7 +7,7 @@
 }
 body{
     font-family: monospace;
-    background-color: #41777e; 
+    background-color: #eb3232; 
 }
 nav{
     background: #a30202;
@@ -42,7 +42,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 a.active, a:hover{
-    background: #0b07ee;
+    background: #312fc2;
     transition: .5s;
 }
 
@@ -310,4 +310,4 @@ h6{
 
  a{
     text-decoration: none;
-}  */  
+}  
