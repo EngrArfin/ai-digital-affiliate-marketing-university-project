@@ -2,30 +2,100 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="/style/login.css">
-    <link rel="stylesheet" href="/style/loginDemo.css"> -->
+    <link rel="stylesheet" href="/style/loginDemo.css"> 
+    <link rel="stylesheet" href="style/first.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LogIn Page</title>
+
+    <style>
+    .photo-contain{
+    position: absolute;
+    top: 200px;
+    left: 1135px;
+    width: 300px;
+    height: 300px;
+}
+.photo-contain h2{
+    text-align: center;
+    color: #047685;
+
+}
+.my-button {
+  background-color: #00586e; 
+  border: none; 
+  color: white; 
+  padding: 8px 140px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 18px;
+  margin: 4px 2px; 
+  cursor: pointer; 
+}
+.m-button{
+  background-color: #00586e; 
+  border: none; 
+  color: white; 
+  padding: 8px 115px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 18px;
+  margin: 4px 2px; 
+  cursor: pointer; 
+  
+
+}
+
+    </style>
 </head>
 <body>
+  <section>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">AI Affiliate Marketing</label>
+      <ul>
+          <li><a class="active" href="">CAREERS</a></li>
+          <li><a href="">COMPANIES</a></li>
+          <li><a href="">CASHBACK</a></li>
+          <li><a href="">PRODUCT</a></li>
+          <li><a href="">FAQ</a></li>   
+          <li><a href="2registration.html">SIGNIN/SIGNUP</a></li>     
+      </ul>
+  </nav>
+  </section>
+  <section>
+    <div class="photo-contain">
+                
+      <img src="/image/bot3.png" alt="Description of the image">
+      
+  </div>
+
+</section>
+
     <header class="intro">
         <article>
             <div class="wrapper">
               <form class="form-signin">       
-                <h2 class="form-signin-heading">AI Affiliate Marketing LogIn </h2>
+                <h2 class="form-signin-heading">AI Affiliate Marketing Login </h2>
                 <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" /> <br>
                 <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
-                <label class="checkbox">
-                  <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
-                </label>
-                <p>Forgate password</p>
-                <button class="btn btn-primary btn-block" type="submit"><a href="3advartising.html">Login</a></button> 
+                
+                <a href="">Forgate password</a>
+                <!-- <button class="btn btn-primary btn-block" type="submit"><a href="3advartising.html">Login</a></button>  -->
+                
+                <button class="my-button"><a href="3advartising.html" class="login">Login</a> </button>
                  
                 <div>
                     <h5>I have no account..</h5> <br>
-                    <button class="btn btn-primary btn-block" type="submit"> <a href="2registration.html"> Registration</a></button>
+                    <!-- <button class="btn btn-primary btn-block" type="submit"> <a href="2registration.html"> Registration</a></button> -->
+                    <button class="m-button"><a href="2registration.html" class="login">Registration</a> </button>
                 </div>
               </form>
             </div>

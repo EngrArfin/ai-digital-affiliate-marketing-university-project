@@ -6,11 +6,14 @@
     box-sizing: border-box;  
 }
 body{
-    font-family: monospace;
-    background-color: #eb3232; 
+    margin: 0%;
+    padding: 0%;
+    /* font-family: monospace;
+    background-color: #5e5e5e; */
+     
 }
 nav{
-    background: #a30202;
+    background: #bd9999;
     height: 70px;
     width: 100%;
 }
@@ -103,8 +106,8 @@ input{
     border: 0;
     padding: 12px 10px;
     outline: none;
-    color: firebrick;
-    background: linear-gradient(to right, #fb5283, #562a68);
+    color: rgb(139, 111, 111);
+    
     border-radius: pointer;
 }
 
@@ -114,17 +117,19 @@ main{
 .cont{
     background-color: #ffffff;
     display: flex;
-    justify-content: space-between;
-    padding: 150px;
+    justify-content: space-around;
+    padding: 90px 15px;
     
 }
-.cont h1{
+.cont h3{
+    display: inline;
+    text-decoration: none;
     
     margin: 0;
     color: rgb(0, 0, 0);
 }
 .cont p{
-    color: rgb(0, 0, 0);
+    color: rgb(7, 6, 6);
 }
 .cont input{
     color: rgb(255, 255, 255);
@@ -135,7 +140,8 @@ main{
 .col-1{
     flex-basis: 40%;
     position: relative;
-    margin-left: 50px;
+    margin-left: 20px;
+    padding: 90px 20px;
 }
 .col-1 h3{
     font-family: 'Poppins';
@@ -143,9 +149,10 @@ main{
     font-size: 44px;
 }
 .col-1 p{
+
     font-size: 20px;
     color: #020102;
-    font-weight: 200;
+    font-weight: 200px;
     text-align: left;
 }
 .cont img{
@@ -199,8 +206,6 @@ main{
     margin-top: 50px;
     border: 0cm;
 }
-
- Product 
 
 .gallery{
     counter-reset: Serial;
@@ -294,7 +299,7 @@ h6{
     
 }
 .container{
-    color: aqua;
+    color: rgb(0, 0, 0);
     border: 4px;
     display: flex;
     justify-content: space-around;
@@ -305,9 +310,21 @@ h6{
                 
 }
 .container a{
-    color: #ece8e8;
+    color: #ffffff;
 }
 
  a{
     text-decoration: none;
 }  
+
+/* photo replace */
+.photo-contain{
+    position: absolute;
+    top: 70px;
+    left: 900px;
+}
+.photo-contain h2{
+    text-align: center;
+    color: #047685;
+
+}

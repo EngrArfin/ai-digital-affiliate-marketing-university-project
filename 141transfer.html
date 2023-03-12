@@ -3,8 +3,6 @@
 <head>
     <link rel="stylesheet" href="style/ai.css">
     <title>DIgital AI Affiliate Marketing Boat</title>
-    
-    <link rel="stylesheet" href="https://kit.fontawesome.com/dca5111805.css" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/dca5111805.js" crossorigin="anonymous"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.1/dist/full.css" rel="stylesheet" type="text/css" />
@@ -43,7 +41,7 @@
                   <li><a href="13top-up.html"><i class="fa-solid fa-up-to-line">Topup</i></a></li>
                   <li><a href="14transfer.html"><i class="fa-solid fa-money-bill-transfer">Transfer</i></a></li>
                   <li><a href="18log-out.html"><i class="fa-solid fa-right-from-bracket">Logout</i></a></li>
-<!--              <li><a href="15faq.html"><i class="fa-solid fa-earth-americas">FAQ</i></a></li>
+             <!-- <li><a href="15faq.html"><i class="fa-solid fa-earth-americas">FAQ</i></a></li>
                   <li><a href="16s-chat.html"><i class="fa-solid fa-earth-americas">SupportChat</i></a></li>
                   <li><a href="17chat.html"><i class="fa-solid fa-earth-americas">Chat</i></a></li>
                   <li><a href="18log-out.html"><i class="fa-solid fa-earth-americas">LogOut</i></a></li> -->
@@ -51,56 +49,61 @@
               </div>
 </section>
     <section id="interface">
-            <h3 class="i-name">Ai.Gesture</h3>
-            <!-- part -2 -->
-            
-            <div>
-                <div class="values">
-                    <div class="val-box">
-                        <div>
-                            <span> New Users</span>
-                            <h3> ৳8267</h3>
-                        </div>
-                    </div>
-                    <div class="val-box">
-                        <div>
-                            <span> New Users</span>
-                            <h3> ৳8267</h3>
-                        </div>
-                    </div>
-                    <div class="val-box">
-                        <div>
-                            <span> New Users</span>
-                            <h3> ৳8267</h3>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="values">
-                    <div class="val-box">
-                        <div>
-                            <span> New Users</span>
-                            <h3> ৳8267</h3>
-                        </div>
-                    </div>
-                    <div class="val-box">
-                        <div>
-                            <span> New Users</span>
-                            <h3> ৳8267</h3>
-                        </div>
-                    </div>
-                    <div class="val-box">
-                        <div>
-                            <span> New Users</span>
-                            <h3> ৳8267</h3>
-                        </div>
-                    </div>
-                </div>
+        <div class="navigation">
+            <div class="n1">
+                <div class="search">
+                    <i class="far fa-sea rch"></i>
+                    <input type="text" placeholder="search here ">   
             </div>
+            </div> 
+            <div class="profile">  
+                <i class="far fa-bell"></i>
+                <img src="image/img1.jpg.jpeg" alt="">
+            </div>
+        </div>
+        <h3 class="i-name">
+            Dashboard
+        </h3>
+
+        <main>
+            <section class="mt-12">
+                <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
+                    <div class="bg-green-400 p-8 rounded-xl">
+                        <h4 class="text-2xl">Deposit</h4>
+                        <h2  class="text-5xl">$<span id="deposit-total">00</span></h2>
+                    </div>
+                    <div class="bg-yellow-300 p-8 rounded-xl">
+                        <h4 class="text-2xl">Withdrow </h4>
+                        <h2 class="text-5xl">$<span id="withdrow-total">00</span> </h2>
+                    </div>
+                    <div class="bg-purple-400 p-8 rounded-xl">
+                        <h4 class="text-2xl">Balance</h4>
+                        <h2 class="text-5xl">$<span id="balance-total">50</span> </h2>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-12">
+                <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto ">
+                    <div class="bg-pink-300 p-8 rounded-xl">
+                        <h4 class="text-2xl mb-4 text-white"> Please Deposit</h4>
+                        <input class="w-9/12 block mb-3 px-4" type="email" name="" id="deposit-field" placeholder="$ Amount you want to deposit">
+                        <button id="btn-deposit" class="bg-red-600 hover:bg-sky-700 px-8 py-2 text-white front-medium rounded-lg rounded-lg">Deposit</button>
+                    </div>
+                    <div class="bg-orange-300 p-8 rounded-xl">
+                        <h4 class="text-2xl mb-4 text-white"> Please Withdrow </h4>
+                        <input id="withdraw-field" class="w-9/12 block mb-3 px-4" type="email" name="" id="user-email" placeholder="$ Amount your withdrow money">
+                        <button id="btn-withdraw" class="bg-red-600 hover:bg-sky-700 px-8 py-2 text-white front-medium rounded-lg rounded-lg">Withdrow</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </section>    
         
-    </section>
-    <script src="js/ai.js"></script>
-    <script src="js/hello.java"></script>
+
+        <script src="js/2deposit.js"></script>
+        <script src="js/2withdrow.js"></script>
+    <!-- <script src="js/ai.js"></script>
+    <script src="js/hello.java"></script> -->
 </body>
 </html>
 

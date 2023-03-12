@@ -15,7 +15,7 @@ body{
     
 }
 .cont{
-    background-color: #07dada;
+    background-color: #000000;
 }
 
 .btne{
@@ -26,7 +26,7 @@ body{
 }
 
 #menu{
-    background: #bd0808;
+    background: #04a7bd;
     width: 400px;
     height: 100%;
     position:fixed;  
@@ -69,7 +69,7 @@ body{
 }
 
 #menu .items li i{
-    color: rgb(24, 73, 207);
+    color: rgb(0, 0, 0);
     width: 30px;
     height: 30px;
     line-height: 20px;
@@ -84,7 +84,7 @@ body{
 }
 
 #menu .items li a{
-    color: rgb(16, 16, 223);
+    color: rgb(242, 242, 250);
     font-weight: 300px;
     transition: 0.5s ease;
     
@@ -144,7 +144,7 @@ body{
 .values h3{
     font-weight: 600;
     font-size: 16px;
-    color: #000000;
+    color: #016970;
 }
 .prev-next{
     text-align: below;
@@ -196,7 +196,7 @@ body{
     background: #a01b95;
 }
 .values .val-box:nth-child(3) i{
-    background: #a10909;
+    background: #882b2b;
 }
 .values .val-box:nth-child(4) i{
     background: #2794d3;
