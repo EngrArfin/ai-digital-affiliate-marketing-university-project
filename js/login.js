@@ -8,7 +8,7 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const emailField = document.getElementById('user-email');
     const email = emailField.value;
     
-
+ 
     //step:3 get pass
     const passwordField = document.getElementById('user-pass');
     const password = passwordField.value;
